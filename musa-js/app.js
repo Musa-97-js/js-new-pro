@@ -18,3 +18,16 @@ $('.btn').click(function (e) {
     a($('input').val())
     
 });
+
+
+$('.btn').click(function (e) { 
+    e.preventDefault();
+
+    let a = (a) => {
+        for (let i = 1; i <= a; i++) {
+            $('#start').append(`<h1>${a}</h1>`);
+        }
+    }
+    a($('input').val())
+    
+});
