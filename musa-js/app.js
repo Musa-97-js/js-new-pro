@@ -1,33 +1,50 @@
 "use strict";
 $(document).ready(function () {
+    $('.btn').click(function (e) {
+        e.preventDefault();
 
-});
-
-
-
-
-
-$('.btn').click(function (e) { 
-    e.preventDefault();
-
-    let a = (a) => {
-        for (let i = 1; i <= a; i++) {
-            $('#start').append(`<h1>${'salam'}</h1>`);
+        let a = (a) => {
+            for (let i = 1; i <= a; i++) {
+                $('#start').append(`<h1>${'salam'}</h1>`);
+            }
         }
-    }
-    a($('input').val())
-    
+        a($('input').val())
+
+    });
+
+    $('.btn').click(function (e) { 
+        e.preventDefault();
+        $('input').val()
+    });
+
 });
 
 
-$('.btn').click(function (e) { 
-    e.preventDefault();
 
-    let a = (a) => {
-        for (let i = 1; i <= a; i++) {
-            $('#start').append(`<h1>${a}</h1>`);
-        }
-    }
-    a($('input').val())
-    
-});
+
+
+
+
+// $('.btn').click(function (e) {
+//     e.preventDefault();
+
+//     let a = (a) => {
+//         for (let i = 1; i <= a; i++) {
+//             $('#start').append(`<h1>${a}</h1>`);
+//         }
+//     }
+//     a($('input').val())
+
+// });
+
+
+// $('.btn').click(function (e) {
+//     e.preventDefault();
+
+//     let a = (a) => {
+//         for (let i = 1; i <= a; i++) {
+//             $('#start').append(`<h1>${i}</h1>`);
+//         }
+//     }
+//     a($('input').val())
+// });
