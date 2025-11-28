@@ -9,15 +9,11 @@ $(document).ready(function () {
             }
         }
         a($('input').val())
+        $('input').val('')
 
     });
-
-    $('.btn').click(function (e) { 
-        e.preventDefault();
-        $('input').val()
-    });
-
 });
+
 
 
 
@@ -30,12 +26,48 @@ $(document).ready(function () {
 
 //     let a = (a) => {
 //         for (let i = 1; i <= a; i++) {
+//             $('#start').append(`<h1>${'salam'}</h1>`);
+//         }
+//     }
+//     a($('input').val(''))
+
+// });
+
+//    $('.btn').click(function (e) {
+//         e.preventDefault();
+
+//         let a = (a) => {
+//             for (let i = 1; i <= a; i++) {
+//                 $('#start').append(`<h1>${'salam'}</h1>`);
+//             }
+//         }
+//         a($('input').val())
+//         $('input').val('')
+
+//     });
+
+// $('.btn').click(function (e) {
+//     e.preventDefault();
+
+//     let a = (a) => {
+//         for (let i = 1; i <= a; i++) {
 //             $('#start').append(`<h1>${a}</h1>`);
 //         }
 //     }
 //     a($('input').val())
 
 // });
+
+//  $('.btn').click(function (e) {
+//         e.preventDefault();
+
+//         let a = (a) => {
+//             $('#start').append(`<h1>${a}</h1>`);
+//         }
+//         a($('input').val())
+//         $('input').val('')
+
+//     });
 
 
 // $('.btn').click(function (e) {
